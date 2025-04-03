@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+        .list-telas {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            margin-right: 1rem;
+            a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+}
