@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
 </head>
+
 <body>
-    <header>
-        <h1>Produtos</h1>
-        <section class="list">
-            <ul>
+    <header class="container-top">
+        <div class="title-login">
+            <a href="#">
+                SaMusic
+            </a>
+        </div>
+        <nav class="list">
+            <ul class="list-header">
                 <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/produtos/produtos.html">Produtos</a></li>
                 <li><a href="/contatos/contatos.html">Contatos</a></li>
                 <li><a href="/fliliais/filiais.html">Filiais</a></li>
                 <li><a href="/cadastro/cadastro.html">Cadastro</a></li>
-                <li><a href="/login/login.html">Login</a></li>
             </ul>
-        </section>
+        </nav>
     </header>
+    <main class="container-principal">
+        <section class="login-estoque-primeira-section" id="login-estoque">
+            <div class="title-login">
+                <h3>Acesse seu login SaMusic</h3>
+            </div>
+            <div class="container-div-login">
+                <div class="login-input-div">
+                    <label for="login-input">Seu login:</label>
+                    <input type="text" class="login-input" id="login" placeholder="Login" />
+                </div>
+                <div class="password-input-div">
+                    <label for="password-input">Digite sua senha:</label>
+                    <input type="password" class="login-input" id="senha" placeholder="Sua senha" max="20" />
+                </div>
+                <div class="captcha">
+                    <input type="checkbox" class="captcha-confirmation" id="check" />
+                    <label for="captcha-confirmation">Captcha</label>
+                </div>
+                <div class="login-footer">
+                    <div class="button-div">
+                        <button type="submit" onclick="logar()">
+                            <a href="#">Entrar</a>
+                        </button>
+                    </div>
+                    <div class="atendimento-virtual">
+                        <a href="#">Central de Atendimento</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="login.js"></script>
 </body>
+
 </html>

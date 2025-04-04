@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
 </head>
+
 <body>
-    <header>
-        <h1>Produtos</h1>
-        <section class="list">
-            <ul>
+    <header class="container-principal-cadastro">
+        <h2 class="title-cadastro-header">SaMusic</h2>
+        <nav class="nav-list">
+            <ul class="list-ordem">
                 <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/produtos/produtos.html">Produtos</a></li>
                 <li><a href="/contatos/contatos.html">Contatos</a></li>
                 <li><a href="/fliliais/filiais.html">Filiais</a></li>
-                <li><a href="/cadastro/cadastro.html">Cadastro</a></li>
                 <li><a href="/login/login.html">Login</a></li>
             </ul>
-        </section>
+        </nav>
     </header>
+    <section class="table-cadastro">
+        <div class="name">
+            <label for="">Nome</label>
+            <input type="text" id="name">
+            <label for="">Sobrenome</label>
+            <input type="text" id="sobrenome">
+        </div>
+        <div class="nascimento-cadastrado">
+            <label for="">Data de nascimentos</label>
+            <input type="date" id="nascimento-cadastrado">
+        </div>
+        <div class="sexo-cadastrado">
+            <h4>Sexo de nascimento</h4>
+            <label for="">Masculino</label>
+            <input type="radio" id="sexo-masculino">
+            <label for="">Feminino</label>
+            <input type="radio" id="sexo-feminino">
+        </div>
+        <div class="cpf-cadastrado">
+            <label for="">CPF</label>
+            <input type="number" id="cpf-cadastrado">
+        </div>
+        <div class="telefone-cadastrado">
+            <label for="">Telefone</label>
+            <input type="tel" id="tel-cadastrado">
+        </div>
+        <div class="email-cadastrado">
+            <label for="">E-mail</label>
+            <input type="email" id="email-cadastrado">
+        </div>
+        <div class="senha-cadastrado">
+            <label for="">Senha</label>
+            <input type="password" id="senha-cadastrado">
+        </div>
+    </section>
 </body>
+
 </html>

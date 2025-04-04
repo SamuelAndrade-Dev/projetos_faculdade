@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Oswald";
+    background-color: rgb(89, 93, 107);
+  }
+  
+  .container-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    .title-login {
+        margin-left: 1rem;
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 2rem;
+        }
+    }
+    .list-header {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        margin-right: 1rem;
+        a {
+            font-size: 1.2rem;
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+  }
+  .login-estoque-primeira-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    .title-login {
+      padding-bottom: 20px;
+      font-size: 1.3rem;
+    }
+    .container-div-login {
+      gap: 20px;
+      label {
+        color: aliceblue;
+      }
+      .login-input {
+        width: 14rem;
+        height: 30px;
+        display: flex;
+        gap: 20px;
+        border-radius: 0.5rem;
+        background-color: rgb(180, 180, 180);
+        border: none;
+        color: aliceblue;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+        margin-top: 2px;
+        font-family: "Oswald-ExtraLight.ttf";
+      }
+    }
+    .login-footer {
+      display: flex;
+      justify-content: space-around;
+      gap: 1rem;
+    }
+    .button-div {
+      button {
+        background-color: rgb(270, 270, 270);
+        height: 1.4rem;
+        width: 5rem;
+        border: none;
+        border-radius: 0.4rem;
+        font-size: 0.9rem;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+    .atendimento-virtual {
+      font-size: 0.9rem;
+      a {
+        color: aliceblue;
+        font-style: italic;
+      }
+    }
+    .captcha {
+      display: flex;
+      align-items: center;
+      .captcha-confirmation {
+        margin: 8px;
+        width: 3rem;
+        height: 20px;
+      }
+    }
+  }
