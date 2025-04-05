@@ -1,0 +1,29 @@
+body {
+    background:linear-gradient(90deg, #5A5239,rgb(61, 53, 57), #cec7b6,rgb(61, 55, 38) );
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+    .title-login {
+        margin-left: 1rem;
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 2rem;
+        }
+    }
+    .list-header {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        margin-right: 1rem;
+        a {
+            font-size: 1.2rem;
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+  }

@@ -4,19 +4,3 @@
     box-shadow: border-box;
 }
 
-.container-principal-cadastro {
-    display: flex;
-    justify-content: space-between;
-    background-color: gray;
-    .list-ordem {
-        display: flex;
-        gap: 1rem;
-        margin-right: 1rem;
-        list-style: none;
-        a {
-            color: aliceblue;
-            font-size: 1.2rem;
-            text-decoration: none;
-        }
-    }
-}

@@ -4,22 +4,6 @@
     box-shadow: border-box;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-        ul {
-            display: flex;
-            list-style: none;
-            gap: 1rem;
-            margin-right: 1rem;
-            a {
-                text-decoration: none;
-                color: aliceblue;
-            }
-        }
-}
 img {
     width: 200px;
     height: 200px;

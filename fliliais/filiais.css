@@ -4,24 +4,6 @@
     box-shadow: border-box;
 }
 
-.container-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-    .list-header {
-        display: flex;
-        gap: 1rem;
-        list-style: none;
-        margin-right: 1rem;
-            a {
-                font-size: 1.2rem;
-                text-decoration: none;
-                color: aliceblue;
-            }
-    }
-}
-
 .imgs-filiais {
     display: flex;
     gap: 1rem;
