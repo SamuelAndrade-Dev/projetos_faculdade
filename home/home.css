@@ -4,3 +4,29 @@
     box-shadow: border-box;
 }
 
+.primary-section {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    .img-home {
+        width: 500px;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .mission-text {
+        font-size: 1.6rem;
+        color: #000;
+    }
+    .texts-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10rem;
+        gap: 1rem;
+    }
+    .list-home {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
