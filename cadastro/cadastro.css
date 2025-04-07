@@ -4,3 +4,38 @@
     box-shadow: border-box;
 }
 
+.main-cadastro {
+    display: flex;
+    justify-content: center;
+    .text-cadastro {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        width: 500px
+    }
+    .table-cadastro {
+        display: flex;
+        gap: 0.6rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height:100vh;
+        .input-type {
+            display: flex;
+            border-radius: 4px;
+            border: none;
+            height: 2rem;
+            width: 350px;
+            }
+            .input-radio {
+                width: 1rem;   
+                height: 1rem;
+            }
+            input:hover {
+                font-size: 1rem;
+                background-color: violet;
+                color: aliceblue;
+                transition: 2s;
+            }
+    }
+}

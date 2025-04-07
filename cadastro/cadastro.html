@@ -26,46 +26,50 @@
             </ul>
         </nav>
     </header>
-    <section class="table-cadastro">
-        <div class="name">
-            <label for="">Nome</label>
-            <input type="text" id="name">
-            <label for="">Sobrenome</label>
-            <input type="text" id="name">
-        </div>
-        <div class="nascimento-cadastrado">
-            <label for="">Data de nascimentos</label>
-            <input type="date" id="nasc">
-        </div>
-        <div class="sexo-cadastrado">
-            <h4>Sexo de nascimento</h4>
-            <label for="">Masculino</label>
-            <input type="radio" id="sexo">
-            <label for="">Feminino</label>
-            <input type="radio" id="sexo">
-        </div>
-        <div class="cpf-cadastrado">
-            <label for="">CPF</label>
-            <input type="number" id="cpf-cadastrado">
-        </div>
-        <div class="telefone-cadastrado">
-            <label for="">Telefone</label>
-            <input type="tel" id="tel-cadastrado">
-        </div>
-        <div class="email-cadastrado">
-            <label for="">E-mail</label>
-            <input type="email" id="email-cadastrado">
-        </div>
-        <div class="senha-cadastrado">
-            <label for="">Senha</label>
-            <input type="password" id="senha-cadastrado">
-        </div>
-        <div class="button-cadastro">
-            <button type="submit" class="submit-form" #id="submit-form">
-                Cadastrar
-            </button>
-        </div>
-    </section>
+    <main class="main-cadastro">
+        <section class="table-cadastro">
+            <h1 class="title-cadastro">Cadastro</h1>
+            <p class="text-cadastro">Novo por aqui? É sempre um prazer em ter pessoas novas se juntando a nossa equipe!
+                Para continuar se
+                cadastre e prossiga para a tela de login.</p>
+            <div class="name">
+                <label for="">Nome</label>
+                <input class="input-type" type="text" id="name">
+            </div>
+            <div class="nascimento-cadastrado">
+                <label for="">Data de nascimento</label>
+                <input class="input-type" type="date" id="nasc">
+            </div>
+            <div class="sexo-cadastrado">
+                <h4>Sexo de nascimento</h4>
+                <label for="">Masculino</label>
+                <input class="input-radio" type="radio" id="sexo">
+                <label for="">Feminino</label>
+                <input class="input-radio" type="radio" id="sexo">
+            </div>
+            <div class="cpf-cadastrado">
+                <label for="">CPF</label>
+                <input class="input-type" type="number" id="cpf-cadastrado">
+            </div>
+            <div class="telefone-cadastrado">
+                <label for="">Telefone</label>
+                <input class="input-type" type="tel" id="tel-cadastrado">
+            </div>
+            <div class="email-cadastrado">
+                <label for="">E-mail</label>
+                <input class="input-type" type="email" id="email-cadastrado">
+            </div>
+            <div class="senha-cadastrado">
+                <label for="">Senha</label>
+                <input class="input-type" type="password" id="senha-cadastrado">
+            </div>
+            <div class="button-cadastro">
+                <button type="submit" class="submit-form" #id="submit-form">
+                    Cadastrar
+                </button>
+            </div>
+        </section>
+    </main>
     <script src="cadastro.js"></script>
 </body>
 

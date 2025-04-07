@@ -16,35 +16,34 @@
     .title-login {
         margin-left: 1rem;
         a {
-            text-decoration: none;
-            color: aliceblue;
+          text-decoration: none;
+          color: aliceblue;
             font-size: 2rem;
+          }
         }
-    }
-    .list-header {
-        display: flex;
-        gap: 1rem;
-        list-style: none;
-        margin-right: 1rem;
-        a {
+        .list-header {
+          display: flex;
+          gap: 1rem;
+          list-style: none;
+          margin-right: 1rem;
+          a {
             font-size: 1.2rem;
             color: aliceblue;
             text-decoration: none;
+          }
         }
-    }
-  }
-  .login-estoque-primeira-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    .title-login {
+      }
+      .login-estoque-primeira-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        .title-login {
       padding-bottom: 20px;
       font-size: 1.3rem;
     }
     .container-div-login {
-      gap: 20px;
       label {
         color: aliceblue;
       }
@@ -99,4 +98,5 @@
         height: 20px;
       }
     }
+
   }

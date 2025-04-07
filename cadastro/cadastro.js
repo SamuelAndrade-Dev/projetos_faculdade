@@ -10,4 +10,5 @@ function validation() {
 
 if (name.trim() == "") {
     alert("O campo nome e sobrenome não podem estar vazios!!")
+    return false;
 }
