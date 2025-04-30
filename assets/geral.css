@@ -14,18 +14,25 @@ body {
     background-color: rgb(7, 16, 48);
     align-items: center;
     height: 6rem;
-    .title-login {
-        margin: 1rem;
-        img {
-            width: 150px;
-            height: 4rem;
-        }
-        a {
-            text-decoration: none;
-            color: aliceblue;
-            font-size: 2rem;
-        }
+}
+
+.title-login {
+    margin: 1rem;
+    img {
+        width: 150px;
+        height: 4rem;
     }
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 2rem;
+    }
+}
+
+.button-search {
+    background-color: black;
+    
+}
     .search-header {
         width: 400px;
         background-color: white;
@@ -33,6 +40,7 @@ body {
         display: flex;
         .bi bi-search {
             color: black;
+            : pointer;
         }
         .input-search {
             width: 280px;
@@ -45,15 +53,15 @@ body {
             height: 2rem;
         }
     }
-    .list-header {
-        display: flex;
-        gap: 1rem;
-        list-style: none;
-        margin-right: 1rem;
-        a {
-            font-size: 1.2rem;
-            color: aliceblue;
-            text-decoration: none;
-        }
+
+.list-header {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 1rem;
+    a {
+        font-size: 1.2rem;
+        color: aliceblue;
+        text-decoration: none;
     }
-  }
+}

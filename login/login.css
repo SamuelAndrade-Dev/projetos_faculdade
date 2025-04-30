@@ -82,11 +82,7 @@
         }
       }
       button:hover {
-        width: 5.6rem;
-        height: 2rem;
-        font-size: 1rem;
         background-color: gray;
-        color: aliceblue;
         transition: 0.5s;
       }
     }
@@ -106,5 +102,22 @@
         height: 20px;
       }
     }
+  }
 
+.register-customer {
+  padding-top: 0.8rem;
+}
+
+.enter-networks {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  a {
+    text-decoration: none;
+    s
+    .net {
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+  }
   }
